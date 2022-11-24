@@ -227,6 +227,14 @@ footer {
 	border: none;
 }
 
+#main-bg {
+	position: absolute;
+	width: 75vw;
+	filter: blur(1px);
+	opacity: 0.6;
+	margin: 8rem 0;
+}
+
 @media screen and (max-width: 1200px) {
 	#showcase-form {
 		width: 85vw;
