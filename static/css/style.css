@@ -217,11 +217,22 @@ footer {
 	text-align: center;
 }
 
+#showcase-form {
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	color: #e0e0e0;
+	width: 50vw;
+	min-height: 2600px;
+	margin: 0;
+	border: none;
+}
+
 @media screen and (max-width: 1200px) {
-	#google-form-iframe {
+	#showcase-form {
 		width: 85vw;
 	}
 }
+
 
 @media screen and (max-width: 1024px) {
 	.team-container {
