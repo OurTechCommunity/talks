@@ -34,8 +34,10 @@
 		/>
 
 		<script>
-			if (screen.width < "760")
+			if (screen.width < "760") {
 				window.location = "https://forms.gle/x7n2JFPRRGKiPc9W7";
+				document.getElementsByTagName('body')[0].textContent = `Redirecting to <a href="https://forms.gle/x7n2JFPRRGKiPc9W7">CFP Forms</a>.`
+			}
 		</script>
 
 		<script defer src="public/js/script.js"></script>
