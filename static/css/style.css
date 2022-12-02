@@ -230,9 +230,25 @@ footer {
 #main-bg {
 	position: absolute;
 	width: 75vw;
+	margin: 8rem 0;
+	animation: zoomOutOnLoad 2s ease-in-out 1;
 	filter: blur(1px);
 	opacity: 0.6;
-	margin: 8rem 0;
+}
+
+@keyframes zoomOutOnLoad {
+	0% {
+		opacity: 0.8;
+		clip-path: inset(2%); 
+		transform: scale(105%);
+	}
+	
+	100% {
+		clip-path: inset(0); 
+		transform: scale(1);
+		filter: blur(1px);
+		opacity: 0.6;
+	}
 }
 
 @media screen and (max-width: 1200px) {
@@ -267,6 +283,12 @@ footer {
 	a img {
 		width: 20vw;
 		height: auto;
+	}
+
+	#main-bg {
+		width: 90vw;
+		opacity: 0.9;
+		margin: 9.2rem 0;
 	}
 }
 
