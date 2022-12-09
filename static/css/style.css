@@ -231,20 +231,18 @@ footer {
 	position: absolute;
 	width: 75vw;
 	margin: 8rem 0;
-	animation: zoomOutOnLoad 2s ease-in-out 1;
+	animation: zoomOutOnLoad 1s ease-in-out 1;
 	filter: blur(1px);
 	opacity: 0.6;
 }
 
 @keyframes zoomOutOnLoad {
 	0% {
-		opacity: 0.8;
-		clip-path: inset(2%); 
-		transform: scale(105%);
+		opacity: 0;
+		transform: scale(97%);
 	}
 	
 	100% {
-		clip-path: inset(0); 
 		transform: scale(1);
 		filter: blur(1px);
 		opacity: 0.6;
@@ -256,7 +254,6 @@ footer {
 		width: 85vw;
 	}
 }
-
 
 @media screen and (max-width: 1024px) {
 	.team-container {
