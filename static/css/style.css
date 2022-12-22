@@ -241,7 +241,7 @@ footer {
 		opacity: 0;
 		transform: scale(97%);
 	}
-	
+
 	100% {
 		transform: scale(1);
 		filter: blur(1px);
