@@ -109,8 +109,8 @@
 
 		<h1>OTC Talks #1</h1>
 
-		<main id="main-content">
-			<ol>
+		<section id="talks-details">
+			<ol id="talks-list">
 				<li>
 					<a href="#talk-1"
 						>Supercharge your deployments with WASM, by Rishit
@@ -118,92 +118,100 @@
 					>
 				</li>
 			</ol>
-			<h2 id="talk-1">Supercharge your deployments with WASM</h2>
-			<p>
-				Speaker:
-				<a
-					href="https://twitter.com/rishit_dagli"
-					target="_blank"
-					rel="noreferrer"
-					>Rishit Dagli</a
-				>
-			</p>
-			<h3 id="about">Abstract</h3>
-			<p>
-				Machine Learning inference (though what we talk about can be
-				applied to other computationally intensive tasks) is often a
-				computationally intensive task and could greatly benefit from
-				the speed of WebAssembly. What if I told you, that you could
-				improve the performance of your application deployed on Linux
-				containers.
-			</p>
-			<p>Enter Wasm and Kubernetes.</p>
-			<p>
-				This talk starts off by introducing the audience to WebAssembly
-				(Wasm) and how they could make use of the speed and security
-				among others of Wasm for their deployments. Another problem we
-				face is that the standard WebAssembly provides very limited
-				access to the native OS and hardware, such as multi-core CPUs,
-				GPU, or TPUS which is not ideal for the kind of systems we
-				target. The talk also shows how one could use the WebAssembly
-				System Interface (WASI) to get security, portability, and native
-				speed for Machine Learning models. The talk then slides into the
-				recent (still preview) support that Azure has launched for WASI
-				node pools to run such a system while also using Krustlet to run
-				Wasm on Kubernetes. To top it off this talk ends with a demo of
-				doing so on Azure.
-			</p>
-			<p>
-				Feel free to
-				<a
-					href="https://links.ourtech.community"
-					target="_blank"
-					rel="noreferrer"
-					>contact us</a
-				>.
-			</p>
 
-			<h3 id="when-where">When and Where</h3>
-			<ul>
-				<li><b>Date</b>: 24th December, 2022</li>
-				<li><b>Timing</b>: 10:30 PM IST</li>
-				<li>
-					<b>Where</b>: Online, held before
+			<div>
+				<h3 id="when-where">When and Where</h3>
+				<ul>
+					<li><b>Date</b>: 24th December, 2022</li>
+					<li><b>Timing</b>: 10:30 PM IST</li>
+					<li>
+						<b>Where</b>: Online, held before
+						<a
+							href="https://catchup.ourtech.community/summary/111"
+							target="_blank"
+							rel="noreferrer"
+							>OTC CatchUp #111</a
+						>
+					</li>
+					<li><a href="/rules">Rules</a></li>
+					<li>
+						<a
+							href="https://ourtech.community/coc"
+							target="_blank"
+							rel="noreferrer"
+							>Code of Conduct</a
+						>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<main id="main-content">
+			<section id="talk-1" class="talk-section">
+				<h2>Supercharge your deployments with WASM</h2>
+				<p>
+					Speaker:
 					<a
-						href="https://catchup.ourtech.community/summary/111"
+						href="https://twitter.com/rishit_dagli"
 						target="_blank"
 						rel="noreferrer"
-						>OTC CatchUp #111</a
+						>Rishit Dagli</a
 					>
-				</li>
-				<li><a href="/rules">Rules</a></li>
-				<li>
+				</p>
+				<h3 id="about">Abstract</h3>
+				<p>
+					Machine Learning inference (though what we talk about can be
+					applied to other computationally intensive tasks) is often a
+					computationally intensive task and could greatly benefit
+					from the speed of WebAssembly. What if I told you, that you
+					could improve the performance of your application deployed
+					on Linux containers.
+				</p>
+				<p>Enter Wasm and Kubernetes.</p>
+				<p>
+					This talk starts off by introducing the audience to
+					WebAssembly (Wasm) and how they could make use of the speed
+					and security among others of Wasm for their deployments.
+					Another problem we face is that the standard WebAssembly
+					provides very limited access to the native OS and hardware,
+					such as multi-core CPUs, GPU, or TPUS which is not ideal for
+					the kind of systems we target. The talk also shows how one
+					could use the WebAssembly System Interface (WASI) to get
+					security, portability, and native speed for Machine Learning
+					models. The talk then slides into the recent (still preview)
+					support that Azure has launched for WASI node pools to run
+					such a system while also using Krustlet to run Wasm on
+					Kubernetes. To top it off this talk ends with a demo of
+					doing so on Azure.
+				</p>
+				<p>
+					Feel free to
 					<a
-						href="https://ourtech.community/coc"
+						href="https://links.ourtech.community"
 						target="_blank"
 						rel="noreferrer"
-						>Code of Conduct</a
-					>
-				</li>
-			</ul>
+						>contact us</a
+					>.
+				</p>
 
-			<h3 id="relevant-links">Relevant Links</h3>
-			<p>
-				<a
-					href="https://docs.google.com/presentation/d/17djYwi-e-qp7QHaNfS5TEPTcXgoGu5HUnASae2gO41U/edit#slide=id.g1b2c9799b21_0_0"
-					target="_blank"
-					rel="noreferrer"
-					>Slide Deck</a
-				>
-			</p>
-			<p>
-				<a
-					href="https://youtu.be/ZiFLje7ir5g"
-					target="_blank"
-					rel="noreferrer"
-					>Video Demo</a
-				>
-			</p>
+				<h3 id="relevant-links">Relevant Links</h3>
+				<p>
+					<a
+						href="https://docs.google.com/presentation/d/17djYwi-e-qp7QHaNfS5TEPTcXgoGu5HUnASae2gO41U/edit#slide=id.g1b2c9799b21_0_0"
+						target="_blank"
+						rel="noreferrer"
+						>Slide Deck</a
+					>
+				</p>
+				<p>
+					<a
+						href="https://youtu.be/ZiFLje7ir5g"
+						target="_blank"
+						rel="noreferrer"
+						>Video Demo</a
+					>
+				</p>
+			</section>
 		</main>
 
 		<footer>
