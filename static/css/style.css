@@ -70,7 +70,7 @@ h1 {
 
 h2 {
 	text-align: center;
-	margin: 0 1em;
+	/* margin: 0 1em; */
 	font-size: 20px;
 	font-size: clamp(20px, 2vw, 25px);
 }
@@ -170,7 +170,8 @@ h2 {
 	width: 50%;
 }
 
-ul {
+ul,
+ol {
 	margin-left: 1em;
 }
 
@@ -247,6 +248,25 @@ footer {
 		filter: blur(1px);
 		opacity: 0.6;
 	}
+}
+
+#talks-details {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	flex-direction: column;
+	gap: 1.5rem;
+	margin: 0 2rem;
+	min-width: 90vw;
+}
+
+#talks-list {
+	line-height: 1.5;
+	/* list-style-type: upper-roman; */
+}
+
+.talk-title {
+	text-align: left;
 }
 
 @media screen and (max-width: 1200px) {
