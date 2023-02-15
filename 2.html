@@ -8,16 +8,16 @@
 			name="keywords"
 			content="otc, talks, OTC Talks, Our Tech Community"
 		/>
-		<meta name="description" content="OTC Talks #1" />
+		<meta name="description" content="OTC Talks #2" />
 		<meta name="author" content="Harsh Kapadia" />
-		<meta property="og:site_name" content="OTC Talks #1" />
-		<meta property="og:title" content="OTC Talks #1" />
+		<meta property="og:site_name" content="OTC Talks #2" />
+		<meta property="og:title" content="OTC Talks #2" />
 		<meta property="og:type" content="website" />
 		<meta
 			property="og:description"
-			content="OTC Talks #1 — on any Tech-related topic. Anyone can give a talk and if you're interested, please fill out a form and we'll get in touch with you as soon as possible!"
+			content="OTC Talks #2 — on any Tech-related topic. Anyone can give a talk and if you're interested, please fill out a form and we'll get in touch with you as soon as possible!"
 		/>
-		<meta property="og:url" content="https://talks.ourtech.community/1" />
+		<meta property="og:url" content="https://talks.ourtech.community/2" />
 		<meta
 			property="og:image"
 			content="https://talks.ourtech.community/static/img/og-img/home.png"
@@ -47,7 +47,7 @@
 			type="image/x-icon"
 		/>
 
-		<title>OTC Talks #1</title>
+		<title>OTC Talks #2</title>
 	</head>
 
 	<body>
@@ -107,7 +107,7 @@
 			</nav>
 		</header>
 
-		<h1>OTC Talks #1</h1>
+		<h1>OTC Talks #2</h1>
 
 		<section id="talks-details">
 			<h2>Table of Contents</h2>
@@ -115,8 +115,7 @@
 			<ul id="talks-list">
 				<li>
 					<a href="#talk-1"
-						>Supercharge your deployments with WASM, by Rishit
-						Dagli</a
+						>Internals of Email Relay, by Omkar Khair</a
 					>
 				</li>
 			</ul>
@@ -124,15 +123,15 @@
 			<h2 id="details">Details</h2>
 
 			<ul>
-				<li><b>Date</b>: 24th December, 2022</li>
+				<li><b>Date</b>: 19th February, 2023</li>
 				<li><b>Timing</b>: 10:30 PM IST</li>
 				<li>
 					<b>Where</b>: Online, held before
 					<a
-						href="https://catchup.ourtech.community/summary/111"
+						href="https://catchup.ourtech.community/attend"
 						target="_blank"
 						rel="noreferrer"
-						>OTC CatchUp #111</a
+						>OTC CatchUp #119</a
 					>
 				</li>
 				<li><a href="/rules">Rules</a></li>
@@ -157,46 +156,36 @@
 
 		<main id="main-content">
 			<section id="talk-1" class="talk-section">
-				<h2 class="talk-title">
-					Supercharge your deployments with WASM
-				</h2>
+				<h2 class="talk-title">Internals of Email Relay</h2>
 				<p>
 					Speaker:
 					<a
-						href="https://twitter.com/rishit_dagli"
+						href="https://twitter.com/omtalk"
 						target="_blank"
 						rel="noreferrer"
-						>Rishit Dagli</a
+						>Omkar Khair</a
 					>
 				</p>
 				<h3 id="abstract-1">Abstract</h3>
 				<p>
-					Machine Learning inference (though what we talk about can be
-					applied to other computationally intensive tasks) is often a
-					computationally intensive task and could greatly benefit
-					from the speed of WebAssembly. What if I told you, that you
-					could improve the performance of your application deployed
-					on Linux containers.
+					Join to learn more how Omkar built a email relay for himself
+					using AWS and Firebase. He will share his learning of the
+					SMTP protocol and other services involved that allowed him
+					to run the project for 3 years without maintainence. He will
+					also share what broke after 3 years and what he plans to do
+					to mitigate this.
 				</p>
-				<p>Enter Wasm and Kubernetes.</p>
 				<p>
-					This talk starts off by introducing the audience to
-					WebAssembly (Wasm) and how they could make use of the speed
-					and security among others of Wasm for their deployments.
-					Another problem we face is that the standard WebAssembly
-					provides very limited access to the native OS and hardware,
-					such as multi-core CPUs, GPU, or TPUS which is not ideal for
-					the kind of systems we target. The talk also shows how one
-					could use the WebAssembly System Interface (WASI) to get
-					security, portability, and native speed for Machine Learning
-					models. The talk then slides into the recent (still preview)
-					support that Azure has launched for WASI node pools to run
-					such a system while also using Krustlet to run Wasm on
-					Kubernetes. To top it off this talk ends with a demo of
-					doing so on Azure.
+					Know more about the
+					<a
+						href="https://explained-from-first-principles.com/email"
+						target="_blank"
+						rel="noreferrer"
+						>underlying concepts about email</a
+					>.
 				</p>
 
-				<h3 id="relevant-links-1">Relevant Links</h3>
+				<!-- <h3 id="relevant-links-1">Relevant Links</h3>
 				<ul>
 					<li>
 						<a
@@ -214,7 +203,7 @@
 							>Video Demo</a
 						>
 					</li>
-				</ul>
+				</ul> -->
 			</section>
 		</main>
 
