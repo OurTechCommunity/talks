@@ -107,7 +107,8 @@
 			<ul id="talks-list">
 				<li>
 					<a href="#talk-1"
-						>EC2 Instance Connect as a Backdoor: Silent Persistence in AWS</a
+						>EC2 Instance Connect as a Backdoor: Silent Persistence
+						in AWS</a
 					>
 				</li>
 			</ul>
@@ -157,7 +158,8 @@
 		<main id="main-content">
 			<section id="talk-1" class="talk-section">
 				<h2 class="talk-title">
-					EC2 Instance Connect as a Backdoor: Silent Persistence in AWS
+					EC2 Instance Connect as a Backdoor: Silent Persistence in
+					AWS
 				</h2>
 				<p>
 					Speaker:
@@ -173,27 +175,45 @@
 				<p>
 					This talk explores a stealthy persistence technique abusing
 					EC2 Instance Connect, discovered while analyzing how SSH key
-					injection works in AWS EC2. By modifying the AuthorizedKeysCommand
-					script used by the SSH daemon, persistent SSH access can be
-					established without adding keys to authorized_keys and without
-					generating CloudTrail logs. This creates a blind spot for traditional
-					SOC monitoring and cloud security controls. The session breaks
-					down the root cause of this trust failure, demonstrates the
-					persistence mechanism, and discusses practical detection
-					and hardening strategies for defenders.
+					injection works in AWS EC2. By modifying the
+					AuthorizedKeysCommand script used by the SSH daemon,
+					persistent SSH access can be established without adding keys
+					to authorized_keys and without generating CloudTrail logs.
+					This creates a blind spot for traditional SOC monitoring and
+					cloud security controls. The session breaks down the root
+					cause of this trust failure, demonstrates the persistence
+					mechanism, and discusses practical detection and hardening
+					strategies for defenders.
 				</p>
 
-				<!-- <h3 id="relevant-links-1">Relevant Links</h3>
+				<h3 id="relevant-links-1">Relevant Links</h3>
 				<ul>
 					<li>
 						<a
-							href="#"
+							href="https://www.youtube.com/watch?v=yXPSRRWi4b4"
 							target="_blank"
 							rel="noreferrer"
-							>#</a
+							>Talk recording</a
 						>
 					</li>
-				</ul> -->
+					<li>
+						<a
+							href="https://www.canva.com/design/DAG-mHDgttg/h7Nq4aOMjYOu0FFWgr_O-A/edit?utm_content=DAG-mHDgttg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+							target="_blank"
+							rel="noreferrer"
+							>Slide deck</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://docs.wehost.co.in/blog/from-curiosity-to-backdoor-how-i-found-a-stealthy-persistence-technique-in-ec2-instance-connect"
+							target="_blank"
+							rel="noreferrer"
+							>From Curiosity to Backdoor: How I Found a Stealthy
+							Persistence Technique in EC2 Instance Connect</a
+						>
+					</li>
+				</ul>
 			</section>
 		</main>
 
