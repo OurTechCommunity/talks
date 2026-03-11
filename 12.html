@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="keywords"
+			content="otc, talks, OTC Talks, Our Tech Community"
+		/>
+		<meta name="description" content="OTC Talks #12" />
+		<meta name="author" content="Harsh Kapadia" />
+		<meta property="og:site_name" content="OTC Talks #12" />
+		<meta property="og:title" content="OTC Talks #12" />
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:description"
+			content="OTC Talks — on any Tech-related topic. Anyone can give a talk and if you're interested, please fill out a form and we'll get in touch with you as soon as possible!"
+		/>
+		<meta property="og:url" content="https://talks.ourtech.community/12" />
+		<meta
+			property="og:image"
+			content="https://talks.ourtech.community/static/img/og-img/home.png"
+		/>
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="600" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta
+			property="twitter:image"
+			content="https://talks.ourtech.community/static/img/og-img/home.png"
+		/>
+
+		<script defer src="static/js/script.js"></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="static/css/style.css" />
+
+		<link
+			rel="shortcut icon"
+			href="static/img/favicon.ico"
+			type="image/x-icon"
+		/>
+
+		<title>OTC Talks #12</title>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<div class="burger-menu">
+					<div class="line-1"></div>
+					<div class="line-2"></div>
+					<div class="line-3"></div>
+				</div>
+
+				<ul class="navbar-ul hide-burger-menu burger-menu-dropdown">
+					<li><a href="/">Home</a></li>
+					<li><a href="/cfp">Talks CFP</a></li>
+					<li><a href="/rules">Rules</a></li>
+					<li>
+						<a
+							href="https://ourtech.community/coc"
+							target="_blank"
+							rel="noreferrer"
+							>Code of Conduct</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://ourtech.community/four-years"
+							target="_blank"
+							rel="noreferrer"
+							>Four Years of OTC</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://ourtech.community/team"
+							target="_blank"
+							rel="noreferrer"
+							>Our Team</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://links.ourtech.community"
+							target="_blank"
+							rel="noreferrer"
+							>All Links</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<h1>OTC Talks #12</h1>
+
+		<section id="talks-details">
+			<h2>Table of Contents</h2>
+
+			<ul id="talks-list">
+				<li>
+					<a href="#talk-1"
+						>When Your Package Manager Became a Weapon: Anatomy of
+						the First Self-Replicating Supply Chain Worm</a
+					>
+				</li>
+			</ul>
+
+			<h2 id="details">Details</h2>
+
+			<ul>
+				<li><b>Date</b>: 21st March 2026</li>
+				<li><b>Timing</b>: 10:30 PM IST / 12 PM CDT</li>
+				<li>
+					<b>Where</b>: Online, before
+					<a
+						href="https://catchup.ourtech.community/attend"
+						target="_blank"
+						rel="noreferrer"
+						>OTC CatchUp #280</a
+					>
+				</li>
+				<li>
+					<b>RSVP</b>:
+					<a href="#" target="_blank" rel="noreferrer">On Luma</a>
+				</li>
+				<li><a href="/rules">Rules</a></li>
+				<li>
+					<a
+						href="https://ourtech.community/coc"
+						target="_blank"
+						rel="noreferrer"
+						>Code of Conduct</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://links.ourtech.community"
+						target="_blank"
+						rel="noreferrer"
+						>Contact us</a
+					>
+				</li>
+			</ul>
+		</section>
+
+		<main id="main-content">
+			<section id="talk-1" class="talk-section">
+				<h2 class="talk-title">
+					When Your Package Manager Became a Weapon: Anatomy of the
+					First Self-Replicating Supply Chain Worm
+				</h2>
+				<p>
+					Speaker:
+					<a
+						href="https://www.linkedin.com/in/sahilb315"
+						target="_blank"
+						rel="noreferrer"
+						>Sahil Bansal</a
+					>
+				</p>
+
+				<h3 id="abstract-1">Abstract</h3>
+				<p>
+					You've heard about
+					<a
+						href="https://www.microsoft.com/en-us/security/blog/2025/12/09/shai-hulud-2-0-guidance-for-detecting-investigating-and-defending-against-the-supply-chain-attack"
+						target="_blank"
+						rel="noreferrer"
+						>Shai-Hulud</a
+					>. The worm that hit npm in September 2025. Over 500
+					packages compromised, GitHub repos going public with
+					'Shai-Hulud' in the name,
+					<a
+						href="https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem"
+						target="_blank"
+						rel="noreferrer"
+						>CISA issuing emergency alerts</a
+					>
+					. But here's what most people don't know: how do you
+					actually catch something like this before it spreads?
+					<br />
+					<br />
+					This talk isn't another “here's what happened” post-mortem.
+					It's about building detection systems that work on zero
+					days. We'll show you how we combine static code analysis
+					with dynamic runtime monitoring in sandboxed containers,
+					using Falco and eBPF to watch what packages actually do when
+					they execute. Not signatures. Not CVE databases. Real
+					behavioural analysis at system-call level.
+					<br />
+					<br />
+					We'll walk through how the worm worked (credential theft,
+					GitHub Actions injection, self-replication via npm tokens),
+					why traditional tools failed (timing problem, not detection
+					problem), and how to build your own detection
+					infrastructure. We will be talking about our detection
+					rules, the architecture for large-scale dynamic analysis,
+					and showing live demos of catching malicious packages in
+					isolated environments. You'll leave with open-source tools
+					like vet and PMG that you can deploy immediately.
+				</p>
+
+				<!-- <h3 id="relevant-links-1">Relevant Links</h3>
+				<ul>
+					<li>
+						<a href="#" target="_blank" rel="noreferrer"
+							>Talk recording</a
+						>
+					</li>
+					<li>
+						<a href="#" target="_blank" rel="noreferrer"
+							>Slide deck</a
+						>
+					</li>
+				</ul> -->
+			</section>
+		</main>
+
+		<footer>
+			<a href="/">OTC Talks</a> events by
+			<a href="https://ourtech.community" target="_blank" rel="noreferrer"
+				>Our Tech Community</a
+			>.
+		</footer>
+	</body>
+</html>
